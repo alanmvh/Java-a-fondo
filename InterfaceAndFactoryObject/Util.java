@@ -1,7 +1,7 @@
 package InterfaceAndFactoryObject;
 
 public class Util {
-    public static <T> void sort(T arr[], Criteria<T> cr)
+    public static <T> void sort(T[] arr, Comparator<T> cr)
     {
         for (int n=0; n<arr.length;n++)
         {
@@ -15,4 +15,5 @@ public class Util {
             }
         }
     }
+
 }

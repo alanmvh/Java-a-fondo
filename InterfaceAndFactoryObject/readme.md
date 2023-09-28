@@ -27,3 +27,20 @@ So with `createCommunicator` method of class `CommunicatorManager` can be classi
 
 This interface declares just one method: `compareTo` that compares an object that is received as parameter with the own instance
 on which the method is being executed
+
+## Lambda expresions
+Allow interface implementation, the only restriction it is that the `interface` must contain a unique 
+method created
+
+# JCF
+
+Its a set of class and interfaces that implements different data structures of frecuently use
+
+## Lists and collections
+We define collections to any `set` of objects. A String[] is a string Collection, a int[] is a collection of
+integer numbers and Object[] a set of objects.
+
+But in general terms when we speak of lists or collections we talk about objects that
+implement interfaces `List` or `Collection`
+
+List -> Interface that extends Collection
